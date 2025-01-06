@@ -5,7 +5,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-size: 17px;
-  color: rgba(0, 0, 0, 0.65);
+  background-color: rgb(204, 19, 19);
 }
 .navbar {
   font-family: 'Olympic Sans', sans-serif;
@@ -28,31 +28,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 /* Diagonal Slant */
 .diagonal-slant {
   position: absolute;
-  bottom: -100px;
+  bottom: -470px;
  /* This will bring it closer to the next section */
   left: 0;
   width: 100%;
-  height: 120px;
-  background: #ffffff;
-  transform: skewY(-2deg);
+  height: 400px;
+  background: #efefef;
+  transform: skewY(-5deg);
   transform-origin: bottom left;
 }
-/* Bottom Slant Gray */
-.bottom-slant-gray {
-  position: relative;
-  background: #949191;
-}
-/* .bottom-slant-gray:after {
-  content: "";
-  width: 100%;
-  height: 240px;
-  position: absolute;
-  bottom: -240px;
- /* Adjust to create overlap left: 0;
-  transform: skewY(6deg);
-  transform-origin: top left;
-}
-/* Optional: Make the section content more visible .bottom-slant-gray .container {
-  position: relative;
-  z-index: 1;
-}
+
